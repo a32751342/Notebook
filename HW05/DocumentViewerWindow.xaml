@@ -32,6 +32,18 @@
             </ToggleButton>
             <ComboBox x:Name="cmbFontFamily" HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" Height="28" SelectionChanged="cmbFontFamily_SelectionChanged"/>
             <ComboBox x:Name="cmbFontSize" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="28" SelectionChanged="cmbFontSize_SelectionChanged"/>
+            <Button Width="30" Height="30" Command="ApplicationCommands.Save">
+                <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="/cut.png" />
+            </Button>
+            <Button Width="30" Height="30" Command="ApplicationCommands.Save">
+                <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="/copy.png" />
+            </Button>
+            <Button Width="30" Height="30" Command="ApplicationCommands.Save">
+                <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="/paste.png" />
+            </Button>
+            <Button Width="30" Height="30" Command="ApplicationCommands.Save">
+                <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="/SelectAll.png" />
+            </Button>
         </ToolBar>
         <RichTextBox x:Name="rtbEditor" DockPanel.Dock="Top" MinHeight="300" Height="403" Background="#FFDEE0F4">
             <FlowDocument>
