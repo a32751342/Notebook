@@ -119,5 +119,17 @@
   <ItemGroup>
     <Resource Include="underline.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SelectAll.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

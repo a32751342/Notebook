@@ -27,9 +27,9 @@ namespace HW05
             //MessageBox.Show("File open");
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Rich Text Format|*.rtf|All Files|*.*";
-            if(openFileDialog.ShowDialog()==true)
+            if (openFileDialog.ShowDialog() == true)
             {
-                FileStream fs = new FileStream(openFileDialog.FileName,FileMode.Open);
+                FileStream fs = new FileStream(openFileDialog.FileName, FileMode.Open);
                 TextRange range = new TextRange(rtbEditor.Document.ContentStart, rtbEditor.Document.ContentEnd);
                 range.Load(fs, DataFormats.Rtf);
             }
