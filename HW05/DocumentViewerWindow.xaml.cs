@@ -65,5 +65,11 @@ namespace HW05
                 rtbEditor.Selection.ApplyPropertyValue(TextElement.FontSizeProperty, cmbFontSize.SelectedItem);
             }
         }
+        /*開新檔案*/
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            DocumentViewerWindow documentViewerWindow = new DocumentViewerWindow();//產生新object
+            documentViewerWindow.Show();//產生新視窗(可以不用結束新視窗就可以再新增一個)
+        }
     }
 }

@@ -15,7 +15,7 @@
             <Button Width="30" Height="30" Command="ApplicationCommands.Open">
                 <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="/folder_open.png" />
             </Button>
-            <Button Width="30" Height="30">
+            <Button Width="30" Height="30" Click="Button_Click">
                 <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="/new-file-icon.jpg" />
             </Button>
             <Button Width="30" Height="30" Command="ApplicationCommands.Save">
